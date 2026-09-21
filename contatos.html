@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contatos - Barbearia Space For Men</title>
-     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="contato.css">
 </head>
+
 <body>
 
-     <header>
+    <header>
         <div class="caixa">
             <h1><img src="./img/logo.png" alt="logo"></h1>
             <nav>
@@ -26,15 +28,34 @@
 
         <form action="">
             <label for="nomesobrenome">Nome e Sobrenome</label>
-            <input type="text" id="nomesobrenome">
+            <input type="text" id="nomesobrenome" class="inputs-padrao">
 
             <label for="email">E-mail</label>
-            <input type="text" id="email">
+            <input type="text" id="email" class="inputs-padrao">
 
             <label for="tel">Telefone</label>
-            <input type="text"  id="tel">
+            <input type="text" id="tel" class="inputs-padrao">
 
-             <input type="submit" value="Enviar">
+            <label for="Mensagem">Mensagem</label>
+            <textarea name="" id="Mensagem" cols="67.2" rows="10"></textarea>
+
+            <div>
+                <p>Como prefere o nosso contato</p>
+                <label for="radio-email"><input type="radio" name="contato" id="radio-email">e-mail</label>
+                
+
+                <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone">telefone</label>
+             
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp">whatsapp</label>
+                
+            </div>
+
+            <label for="checkbox"><input type="checkbox" name="" id="checkbox">Gostaria de receber nossas novidade por e-mail?</label>
+         
+
+
+            <input type="submit" value="Enviar">
 
 
         </form>
@@ -45,6 +66,7 @@
         <img src="./img/logo-branco.png" alt="logo-branco">
         <p class="copy">&copy;Copyright Barbearia Space for Men</p>
     </footer>
-    
+
 </body>
+
 </html>
