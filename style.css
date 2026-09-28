@@ -1,6 +1,14 @@
+
+body{
+     font-family: "Montserrat", sans-serif;
+
+}
+
+
 header{
     background-color: #bbbbbb;
     padding: 20px 0;
+    
 }
 
 .caixa{
@@ -41,6 +49,7 @@ nav a:hover{
 main{
     width: 940px;
     margin: 0 auto;
+    
 }
 
 .principal p{
@@ -61,12 +70,16 @@ main{
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
+      clear: left;
 
 }
 
 
 .utensilios{
     width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+  
 }
 
 .imagembeneficios{
