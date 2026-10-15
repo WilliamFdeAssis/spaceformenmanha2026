@@ -177,6 +177,10 @@ footer{
         position: static;
     }
 
+    .lista-beneficios, .imagembeneficios{
+        width: 100%;
+    }
+
 
 
     
